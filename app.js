@@ -46,8 +46,8 @@ button1.disabled=false;
 if(score==target.innerText)
 {
 result.innerText= e.target.id+" Won";
-e.button1.disabled=true;
-e.button2.disabled=true;
+button1.disabled=true;
+button2.disabled=true;
 }
 }
 
